@@ -74,3 +74,68 @@ button {
 #title-img {
     width: 400px;
 }
+
+h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+}
+
+.content{
+    justify-content: center;
+    margin: 100px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-img{
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px #888888;
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.desc{
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote-box{
+    padding-top: 100px;
+    padding-bottom: 78px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote-source{
+    font-weight: 600;
+    align-self: flex-end;
+    font-size: 22px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
